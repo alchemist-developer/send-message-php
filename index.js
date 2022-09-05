@@ -14,9 +14,19 @@ element.innerHTML = `<!doctype html>
     <title>Need a real server for send</title>
 </head>
 
-<body class="d-flex flex-column">
+    <style> 
+        body {
+            background-color: #121212 !important;"
+            color: #fff !important;
+        }
+        * {
+        color: #fff !important;
+        } 
+    </style>
+
+<body class="d-flex flex-column" >
     
-    <div class="d-flex align-content-center justify-content-center mt-5">
+    <div class="d-flex align-content-center justify-content-center mt-5 ">
         
         <div class="d-flex flex-column w-50">
             
@@ -34,7 +44,7 @@ element.innerHTML = `<!doctype html>
                     <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Send email</button>
+                <button type="submit" class="btn btn-secondary">Send email</button>
               </form>
 
         </div>
