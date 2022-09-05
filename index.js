@@ -17,19 +17,20 @@ element.innerHTML = `<!doctype html>
     <style> 
         body {
             background-color: #121212 !important;"
-            color: #fff !important;
         }
         * {
-        color: #fff !important;
+        color: gray!important;
         } 
     </style>
 
-<body class="d-flex flex-column" >
+<body>
+
+
+    <div class="mt-5 d-flex flex-column align-items-center justify-content-center" >
+    <img class="" src="/icon.webp" width="600px" class="img-fluid" alt="Responsive image"/>
     
-    <div class="d-flex align-content-center justify-content-center mt-5 ">
-        
-        <div class="d-flex flex-column w-50">
-            
+    <div class="mt-5 w-50">        
+        <div class="d-flex flex-column >
             <form method="POST" action="./email.php">
                 <div class="mb-3">
                     <label class="form-label">Your name:</label>
@@ -44,9 +45,9 @@ element.innerHTML = `<!doctype html>
                     <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
                 </div>
-                <button type="submit" class="btn btn-secondary">Send email</button>
+                <button type="submit" class="btn btn-secondary text-dark">Send email</button>
               </form>
-
+              </div>
         </div>
 
     </div>
@@ -65,7 +66,7 @@ element.innerHTML = `<!doctype html>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
-</body>
+</civ>
 
 </html>`
 
